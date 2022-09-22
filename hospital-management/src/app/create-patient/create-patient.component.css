@@ -1,0 +1,31 @@
+
+  .self_margin{
+    margin-top: -108px;
+  }
+  .item_center p{
+
+    text-align: center;
+    padding-top: 13px;
+  }
+  .footer{
+    height: 50px;
+  
+  }
+  .reg-btn{
+    background-color: green;
+    margin-top: 10px;
+ }
+  .reg-btn:hover{
+     background-color: green;
+  }
+  .form-group{
+    margin-top: 10px;
+  }
+  h1{
+    background-color: bisque;
+  }
+  marquee{
+    background-color: skyblue;
+    font-size: 23px;
+    width: 100%;
+  }

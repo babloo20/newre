@@ -1,0 +1,55 @@
+<img src="assets/images/logo.jpg" width="100px" height="100px" margin-left="-100px">
+<div class="col-md-6 offset-md-3">
+    <marquee  width="100%" height="40px" > 24/7 Emergency Available </marquee>
+
+    <h3> Create Doctor </h3>
+    <form (ngSubmit) = "onSubmit()">
+    
+        <div class="form-group">
+            <label> Name</label>
+            <input type="text" class ="form-control" id = "Name"
+                [(ngModel)] = "doctor.name" name = "Name">
+        </div>
+        <div class="form-group">
+            <label> Age</label>
+            <input type="number" class ="form-control" id = "age"
+                [(ngModel)] = "doctor.age" name = "age">
+        </div>
+        <div class="form-group">
+            <label for="gender">Gender:</label>
+            <div>
+                <div>
+                    <input id="Male" type="radio" value="Male" [(ngModel)] = "doctor.gender" name="gender" >
+                    <label for="Male">Male</label>
+                </div>
+                <div>
+                    <input id="Female" type="radio" value="Female" [(ngModel)] = "doctor.gender" name="gender">
+                    <label for="Female">Female</label>
+                </div>
+            </div>
+            </div>
+            <div class="form-group">
+                <label> Specialist</label>
+                <input type="text" class ="form-control" id = "specialist"
+                    [(ngModel)] = "doctor.specialist" name = "specialist">
+            </div>
+            <div class="form-group">
+                <label> Patients attended</label>
+                <input type="number" class ="form-control" id = "patients"
+                    [(ngModel)] = "doctor.numberOfPatients" name = "patients">
+            </div>
+    
+        <button class = "btn btn-success" type ="submit">Submit</button>
+    </form>
+    </div>
+
+<hr >
+
+    <footer class = "footer" >
+        <div class="d-flex flex-wrap justify-content-between"></div>
+        <div>
+          <h5>Contact</h5>
+          <h5>help</h5>
+          <h5>support</h5>  
+        </div>
+      </footer>

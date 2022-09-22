@@ -1,0 +1,10 @@
+marquee{
+    background-color: skyblue;
+    font-size: 23px;
+    width: 100%;
+  }
+
+p{
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
